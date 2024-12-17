@@ -1,0 +1,68 @@
+.filter-buttons {
+  display: flex;
+  gap: 20px;
+}
+
+.Check {
+  margin-top: 20px;
+  width: 350px;
+  height: 250px;
+  background-color: rgb(241, 234, 160);
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.parent-hr {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.hr {
+  height: 0;
+  width: 31%;
+  border: 1px solid black;
+}
+
+.div-text {
+  padding-top: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.div2-text {
+  padding-top: 15px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.h5 {
+  margin-left: 70px;
+}
+
+.p {
+  margin-left: 109px;
+}
+
+.border {
+  border: none;
+  border-top: 2px dotted black;
+  width: 100%;
+  margin: 20px 0px;
+}
+
+.buttonZ {
+  width: 243px;
+  height: 44px;
+  border-radius: 13px;
+  text-transform: uppercase;
+  color: white;
+  background-color: rgb(223, 182, 18);
+}
+
+.button-DIV {
+  display: flex;
+  justify-content: center;
+}

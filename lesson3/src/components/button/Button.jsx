@@ -1,21 +1,17 @@
 import React from "react";
+import "./Button.css";
 
-const Button = ({ name, isActive, onClick }) => {
+const Button = (props) => {
+  const { activeBtn, onClick } = props;
   return (
-    <button
-      onClick={onClick}
-      style={{
-        margin: "5px",
-        padding: "10px",
-        backgroundColor: isActive ? "black" : "white", 
-        color: isActive ? "white" : "black", 
-        border: "1px solid lightgray",
-        borderRadius: "8px",
-        cursor: "pointer",
-      }}
-    >
-      {name}
-    </button>
+    <div>
+      <button
+        onClick={onClick}
+        className={activeBtn === props.name ? "btn active" : "btn"}
+      >
+        {props.name}
+      </button>
+    </div>
   );
 };
 
