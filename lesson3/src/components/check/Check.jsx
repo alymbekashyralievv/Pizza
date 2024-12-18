@@ -2,8 +2,8 @@ import React from "react";
 import "./Check";
 const Check = () => {
   return (
-    <div>
-      <div className="Check">
+    <div> 
+      {/* <div className="Check">
         <div className="parent-hr">
           <div className="hr"></div>
           <h4 style={{ textTransform: "uppercase" }}>Ваш чек</h4>
@@ -34,7 +34,7 @@ const Check = () => {
         <div className="button-DIV">
           <button className="buttonZ">Оформить заказ</button>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };
